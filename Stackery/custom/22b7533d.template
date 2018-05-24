@@ -1,0 +1,9 @@
+{
+  "Resources": {
+    "LogErrors": {
+      "Type": "Custom::SeedDatabase",
+      "Properties": {
+                "ServiceToken": { "Fn::GetAtt": [ "63ced5ec", "Arn" ] }
+    }
+  }
+}
